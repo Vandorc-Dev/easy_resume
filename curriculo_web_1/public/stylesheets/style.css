@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+#main-container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  height: 8.4vh;
+  width: 100%;
+  background-color: #ffffff;
+  padding-left: 34px;
+  border-bottom: solid 2px #8d8b8b;
+}
+
+header h1{
+  color: #1f1147;
+}
+
+header img{
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 24px;
+}
+
+
+#main-form{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+
+#main-form h2{
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 76%;
+  margin: auto;
+  padding: 2em;
+  border: #1f1147 solid 2px;
+}
